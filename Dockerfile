@@ -1,5 +1,5 @@
 # Use Alpine Linux as base image
-FROM alpine:3.21.3
+FROM alpine:latest
 
 # Install required packages
 RUN apk add --no-cache \
